@@ -18,8 +18,8 @@ if (!empty($_POST)) {
 		echo "Paramètre $mike[2] de mauvais type";
 
 	else
-		echo "Paramètre 1 : $mike[1]<br>Paramètre 2 : $mike[2]";
-	
+		echo "Résultat : " . ($mike[1]+$mike[2]) ;
+
 
 }
  ?>
